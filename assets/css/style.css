@@ -30,6 +30,9 @@
     background-color:  #525252;
 }
 
+.bg-colour-personal-info {
+    background-color: #f4f4f4;
+}
 /*------------------special paddings/margins/text---*/
 
 h1,h2,h3,h4 {
@@ -230,3 +233,46 @@ footer {
     margin-bottom: 15px;
     
 }
+
+/*----------------------------------------personal info -----------*/
+
+.bg-colour-personal-info {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.bg-colour-personal-info .key,
+.bg-colour-personal-info .value {
+    padding-right: 8px;
+    display: inline-block;
+
+}
+
+.bg-colour-personal-info .key .p,
+.bg-colour-personal-info .value .p {
+    margin: 0;
+}
+
+.bg-colour-personal-info .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top:2px;
+    vertical-align: top;
+}
+
+.bg-colour-personal-info .key p {
+    font-weight: 700;
+}
+
+.bg-colour-personal-info .value {
+    position: relative;
+    width: 60%;
+    
+}
+
+
+
+
+
+
